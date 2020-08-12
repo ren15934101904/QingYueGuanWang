@@ -1,0 +1,67 @@
+.container .main02{
+    padding-top: 0.98rem;
+    padding-bottom: 0.98rem;
+    width: 100vw;
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+}
+.container .main02 .topImg{
+    width: 100vw;
+    height: 3.9rem;
+    background:url("../../assets/imgs/bg.png");
+}
+.container .main02 .topImg h1{
+    padding-top: 0.6rem;
+    margin: 0 auto;
+    display: block;
+    width:2.4rem;
+    height:0.56rem;
+    font-size:0.5rem;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+    line-height:0.82rem;
+}
+.container .main02 .topImg .text{
+    width:10.56rem;
+    height:1.53rem;
+    font-size:0.19rem;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height:0.5rem;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 0.5rem;
+}
+.container .main02 .text{
+    width: 100vw;
+    height: 50%;
+}
+.container .main02 .text img{
+    width: 5rem;
+    position: relative;
+    top: 0.5rem;
+    left: 4.08rem;
+}
+.container .main02 .text .footerText{
+    width: 8.5rem;
+    height: 100%;
+    float: right;
+    padding: 1.1rem 0;
+}
+.container .main02 .text .footerText li{
+    width: 100%;
+    height: 0.8rem;
+    font-size:0.19rem;
+    font-weight:400;
+    color:rgba(36,36,36,1);
+    line-height:0.35rem;
+    position: relative;
+}
+.container .main02 .text .footerText li img{
+    width: 0.35rem;
+    position: absolute;
+    left: -0.5rem;
+    top: 0.22rem;
+}

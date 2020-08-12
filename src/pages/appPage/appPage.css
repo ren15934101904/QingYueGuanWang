@@ -1,0 +1,33 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.container img:nth-of-type(1){
+    width: 100%;
+}
+.container img:nth-of-type(2){
+    position: absolute;
+    width: 1.3rem;
+    top: 8.9rem;
+    right: 3.04rem;
+    z-index: 999;
+}
+.container i{
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    font-style: normal;
+    line-height: 1.1rem;
+    width: 4.4rem;
+    height: 1.1rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: #2CC8A6;
+    color: white;
+    font-size: 0.38rem;
+    left: 1.6rem;
+    top:11.5rem;
+    position: absolute;
+
+}

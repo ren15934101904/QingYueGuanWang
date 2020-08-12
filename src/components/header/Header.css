@@ -1,0 +1,72 @@
+.header{
+    /* background-color: rgba(255, 255, 255,0.4); */
+    color: white;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    width: 100%;
+    height: 0.98rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    padding: 0 3rem 0 3rem;
+    /* border-bottom: 2px solid #ededed; */
+}
+.header.headerColor{
+    background-color: rgb(255, 255, 255) !important;
+    border-bottom: 2px solid #ececec;
+}
+.header .logo{
+    float: left;
+    position: relative;
+}
+.header .logo img:nth-child(1){
+    width: 0.63rem;
+    height: 0.63rem;
+    margin-right: 0.15rem;
+    position: relative;
+    top: -0.1rem;
+}
+.header .logo img:nth-child(2){
+    width: 0.48rem;
+    height: 0.23rem;
+}
+.header .logo .logoName{
+    position: absolute;
+    top: 0.37rem;
+}
+.header .nav{
+    float: right;
+    height: 0.96rem;
+    line-height: 0.96rem;
+    font-size: 0.16rem;
+}
+.header .nav.Black{
+    color: black;
+}
+.header .nav li{
+    float: left;
+    width: 1.7rem;
+    height: 0.96rem;
+    text-align: right;
+    position: relative;
+    cursor: pointer;
+}
+.header .nav li span{
+    display: block;
+    width: 0.22rem;
+    height: 0.05rem;
+    border-radius: 0.2rem;
+    background:linear-gradient(to right, rgb(62,180,222),rgb(34,213,159),rgb(62,180,222));
+    position: absolute;
+    right: 2.5%;
+    top: 0.65rem;
+}
+.header .nav li .aboutAddress{
+    right: -1.5rem;
+}
+.header .nav li .UserAddress{
+    right: -3.2rem;
+}
+.header .fontBold{
+    font-weight: bolder;
+}

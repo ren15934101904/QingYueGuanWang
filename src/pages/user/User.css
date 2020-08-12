@@ -1,0 +1,31 @@
+.container .main03{
+    padding: 0.98rem 4.5rem;
+    box-sizing: border-box;
+    margin-bottom: 0.8rem;
+    width: 100vw;
+    /* flex: 1; */
+    /* overflow: hidden; */
+    position: relative;
+    background-color: white;
+    color: black;
+}
+.container .main03 h1{
+    text-align: center;
+    font-size: 0.3rem;
+    padding: 0.5rem 0;
+    color: #adadad;
+}
+.container .main03 h2{
+    font-size: 0.18rem;
+    line-height: 0.3rem;
+}
+.container .main03 h3{
+    font-size: 0.18rem;
+    line-height: 0.8rem;
+    color: #8a8a8a;
+
+}
+.container .main03 p{
+    font-size: 0.16rem;
+    line-height: 0.35rem;
+}
